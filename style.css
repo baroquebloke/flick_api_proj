@@ -48,7 +48,6 @@ table {
 
 /* ############################################# */
 html {
-  background: rgb(11.4%, 11.4%, 11.4%);
   margin: 0 auto;
 }
 header { 
@@ -71,7 +70,7 @@ menu li {
 menu a {
   display: inline-block;
   text-decoration: none;
-  color: #ecf0f1;
+  color: black;
   padding: 10px 10px 20px 10px;
 }
 #container {
@@ -83,6 +82,7 @@ menu a {
 @media screen and (max-width: 800px) {
   #container { max-width: 480px; }
 }
+
 @media screen and (max-width: 600px) {
   #container { max-width: 240px; }
 }
@@ -125,7 +125,7 @@ figcaption {
 }
 .paginate a {
   text-decoration: none;
-  color: #ecf0f1;
+  color: black;
   padding: 20px;
 }
 
